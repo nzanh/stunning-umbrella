@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>sorrafk</title>
+
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body oncontextmenu="return false">
+
+<header>
+    <h1>sorrafk</h1>
+</header>
+
+<div class="box">
+
+    <h2 id="title"></h2>
+
+    <input type="file" id="file1">
+    <input type="file" id="file2" style="display:none;">
+
+    <!-- chọn khung -->
+    <div class="frames" id="frames"></div>
+
+    <!-- preview -->
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    <button onclick="pay()">Thanh toán</button>
+    <button id="download" style="display:none;">Tải ảnh</button>
+
+</div>
+
+<script src="js/frames.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
